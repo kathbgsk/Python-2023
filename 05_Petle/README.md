@@ -20,3 +20,7 @@
 
 - Wypisać wszystkie liczby od `1` do `100` które spełniają warunek z poprzedniego zadania
 - wczytaj przy użyciu `input()` liczbę; wypisz sumę jej cyfr
+- 
+n = int(input("Podaj liczbę:"))
+print(f'Podałeś liczbę {n}')
+n = a/2 and b/2

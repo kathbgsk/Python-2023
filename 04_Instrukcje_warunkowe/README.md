@@ -19,5 +19,16 @@
 ---
 # Zadanie
 
-- wczytaj liczbę 2 cyfrową - wypisz `Dobra liczba` jeśli suma jej cyfr dzieli się przez 7 oraz liczba jest parzysta, a `Zła liczba` w przeciwnym wypadku
+- wczytaj liczbę 2 cyfrową - wypisz `Dobra liczba` jeśli suma jej cyfr dzieli się przez 7 oraz liczba jest parzysta, a `Zła liczba` w przeciwnym wypadku 
+
+
+
+a= int(input("podaj liczbe"))
+b = int (a/10)
+c = a%10
+i=b+c
+if( i== 7 and a % 2 ==  0):
+    print (f{i}"liczba jest dobra")
+else:
+    print (f{i}"liczba jest zla")
 
