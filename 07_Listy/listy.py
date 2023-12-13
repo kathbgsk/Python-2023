@@ -47,3 +47,7 @@ s2.join(["Ala", "ma", "kota"])
 3 in l
 
 l.insert(2, 100)
+
+l = []
+while True:
+    input((""))
